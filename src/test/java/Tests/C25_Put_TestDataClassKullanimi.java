@@ -66,5 +66,6 @@ degerinin “keep-alive”
         Assert.assertEquals(expectedData.getString("title"),jsonPath.getString("title"));
         Assert.assertEquals(expectedData.getString("body"),jsonPath.getString("body"));
 
+
     }
 }
